@@ -1,0 +1,63 @@
+body {
+    font-size: 30px;
+    color: #2C2C2C; 
+    background-color: #F5F5DC; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #D4AF37;
+    background-color: #123524; 
+    padding: 70px;
+}
+
+p {
+    text-align: center;
+    color: #B87333; 
+    font-size: 40px;
+}
+.date-input {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 11px;
+    color: rgb(13, 104, 77);
+    transition: opacity 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+    margin: 0 auto;
+}
+.date-input:hover {
+    background-color: #D4AF37; 
+    color: #123524; 
+    cursor: pointer;
+    opacity: 0.8;
+}
+.date-input:focus {
+    outline: none;
+    border: 2px solid #D4AF37; 
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+h2 {
+    text-align: center;
+    color:rgb(71, 107, 136);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.event-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #339666; 
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.event-button:hover {
+    background-color: #2c7a5c; 
+    transform: scale(1.05);
+}

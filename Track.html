@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Event Tracker</h1>
+        <h2>Choose Date:</h2>
+    </header>
+
+    <main>
+        <section>
+            <input type="date" id="dateInput" class="date-input">
+            <button id="fetch-btn" class="event-button">Track Event</button>
+            <p>Earth's Natural Event Tracker</p>
+        </section>
+        <div id="results"></div>
+    </main>
+
+    <script>
+        const MAPBOX_TOKEN = "1vOnQAvrxBHb8eyS7yRNtDPTVTmwhrDJud9pebXZ";
+    </script>
+    <script src="track.js"></script>
+</body>
+</html>
